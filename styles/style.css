@@ -6,8 +6,6 @@
         "width" 100;
 }
 
-* {}
-
 /* common styles  */
 .common-width-height {
     height: 400px;
@@ -170,7 +168,7 @@ nav ul {
 =================*/
 .skills-section {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .skill-content {
@@ -179,7 +177,7 @@ nav ul {
 }
 
 .skill-title {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .skill-description {
@@ -190,6 +188,7 @@ nav ul {
 .skill-items {
     display: flex;
     gap: 25px;
+    margin-bottom: 100px;
 }
 
 .skill-box {
@@ -206,4 +205,45 @@ nav ul {
     font-size: 15px;
     font-weight: 500;
     line-height: 23px;
+}
+
+/* resume styles 
+================ */
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-contents {
+    display: flex;
+    gap: 40px;
+}
+
+.resume-education {
+    font-size: 25px;
+}
+
+.resume-title {
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.resume-edu-title {
+    font-size: 20px;
+    line-height: 2px;
+}
+
+.resume-edu-passing-year {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.resume-description {
+    font-size: 16px;
+}
+
+.btn-center {
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
 }
