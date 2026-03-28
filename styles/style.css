@@ -9,6 +9,11 @@
 * {}
 
 /* common styles  */
+.common-width-height {
+    height: 400px;
+    width: 1080x;
+}
+
 .common-bg {
     background-color: #FFF8F3;
 }
@@ -134,8 +139,6 @@ nav ul {
 
 .about-section {
     margin-top: 100px;
-    height: 400px;
-    width: 1080x;
     text-align: center;
 }
 
@@ -161,4 +164,46 @@ nav ul {
 .header-info {
     font-size: 15px;
     line-height: 5px;
+}
+
+/* skill styles  
+=================*/
+.skills-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skill-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-title {
+    font-size: 30px;
+}
+
+.skill-description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.skill-items {
+    display: flex;
+    gap: 25px;
+}
+
+.skill-box {
+    max-width: 250px;
+    padding: 20px;
+    box-shadow: 0px 1px 5px -3px;
+}
+
+.box-title {
+    font-size: 16px;
+}
+
+.box-description {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
 }
